@@ -1,0 +1,94 @@
+.banner{
+	background-size: cover;
+	background-position: center;
+	padding: 120px 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#main-page-banner{
+	background-image: url(../../images/main-page/main-page-banner.jpg);
+	text-align: left;
+}
+
+#main-page-banner h1, #photography-banner h1, #pencil-pen-banner h1, #paint-banner h1, #digital-banner h1, #sketchbook-banner h1, #process-banner h1{
+	color: white;
+}
+
+#main-page-banner h3{
+	margin-bottom: 50px;
+	color: #F3E4E2;
+}
+
+#banner-card{
+	display: flex;
+}
+
+#photography-banner{
+	background-image: url("../../images/photography/photography-banner.jpeg");
+}
+
+#pencil-pen-banner{
+	background-image: url(../../images/pencil-pen/pencil-pen-banner.jpeg);
+}
+
+#paint-banner{
+	background-image: url(../../images/paint/paint-banner.jpeg);
+}
+
+#digital-banner{
+	background-image: url(../../images/digital/digital-banner.jpeg);
+}
+
+#sketchbook-banner{
+	background-image: url(../../images/sketchbook/sketchbook-banner.jpeg);
+}
+
+#process-banner{
+	background-image: url(../../images/process/process-banner.jpeg);
+}
+
+
+@media (max-width: 720px){
+	#banner-card h1{
+		font-size: 40px;
+	}
+	#banner-card h3{
+		font-size: 28px;
+	}
+	#banner-card-info{
+		margin-left: 50px;
+	}
+}
+
+@media (max-width: 540px){
+	#banner-card h1{
+		font-size: 38px;
+	}
+	#banner-card h3{
+		font-size: 25px;
+	}
+	#banner-card-info{
+		margin-left: 50px;
+	}
+}
+
+@media (max-width: 720px){
+	#photography-banner h1, #pencil-pen-banner h1, #paint-banner h1, #digital-banner h1, #sketchbook-banner h1, #process-banner h1{
+		font-size: 40px;
+	}
+
+	#photography-banner h3, #pencil-pen-banner h3, #paint-banner h3, #digital-banner h3, #sketchbook-banner h3, #process-banner h3{
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 540px){
+	#photography-banner h1, #pencil-pen-banner h1, #paint-banner h1, #digital-banner h1, #sketchbook-banner h1, #process-banner h1{
+		font-size: 38px;
+	}
+	#photography-banner h3, #pencil-pen-banner h3, #paint-banner h3, #digital-banner h3, #sketchbook-banner h3, #process-banner h3{
+		font-size: 25px;
+	}
+}
+

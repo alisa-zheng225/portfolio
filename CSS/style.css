@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400&display=swap");
+/*the thin font without the little tails*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+/*the font with the tails*/
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+
+h1{
+	font-family: Playfair Display;
+	font-size: 48px;
+	font-weight: 700;
+	font-color: black;
+}
+
+h2{
+	font-family: Playfair Display;
+	font-size: 30px;
+	font-weight: 400;
+	font-color: black;
+}
+
+h3{
+	font-family: Playfair Display;
+	font-size: 30px;
+	font-weight: 400;
+	font-color: black;
+	font-style: italic;
+}
+
+p{
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 200;
+	font-color: black;
+	margin-bottom: 40px;
+}
+
+a{
+	text-decoration: none;
+	font-family: Raleway;
+	font-weight: 600;
+}
+
+img{
+	width: 400px;
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+.landscape-picture img{
+	width: 550px;
+	height: 450px;
+}
+
+@media (max-width: 720px){
+	.landscape-picture img{
+	width: 425px;
+	height: 325px;
+	}
+}
+
+@media (max-width: 540px){
+	.landscape-picture img{
+	width: 350px;
+	height: 250px;
+	}
+}

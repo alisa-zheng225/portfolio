@@ -1,0 +1,22 @@
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px){
+	.container, #about-me-card{
+		width: 900px;
+	}
+}
+
+@media (max-width: 720px){
+	.container, #about-me-card{
+		width: 650px;
+	}
+}
+
+@media (max-width: 540px){
+	.container, #about-me-card{
+		width: 500px;
+	}
+}

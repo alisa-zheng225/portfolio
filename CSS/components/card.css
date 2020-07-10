@@ -1,0 +1,240 @@
+.card{
+	padding: 30px;
+	align-items: center;
+	justify-content: space-around;
+	flex-grow: 1;
+	border-radius: 6px;
+	margin: 30px 0px;
+}
+
+#about-me-card{
+	display: flex;
+	background-color: #F3E4E2;
+	border-radius: none;
+	margin-top: 70px;
+	padding: 50px;
+	justify-content: space-around;
+	grid-column: span 2;
+
+}
+
+#about-me-title{
+	width: 30px;
+}
+
+#about-me-info{
+	width: 700px;
+}
+
+#art-types-cards{
+	padding: 40px;
+	display: grid;
+	text-align: center;
+	grid-gap: 14px;
+}
+
+
+@media only screen and (min-width: 540px){
+	#art-types-cards{
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media only screen and (min-width: 720px){
+	#art-types-cards{
+		grid-template-columns: repeat(2, 1fr);
+
+	}
+}
+
+.artwork-display-cards{
+	display: flex;
+	margin-top: 50px;
+}
+
+.artwork-display-cards-info{
+	margin-left: 40px;
+}
+
+.artwork-display-cards-info h2{
+	font-size: 26px;
+	padding: 10px;
+
+}
+
+.artwork-display-cards-info h3{
+	font-size: 20px;
+}
+
+.artwork-display-cards img{
+	width: 450px;
+	height: 550px;
+}
+
+#photography-info h2{
+	color: #220C10;
+	background-color: #EFF3FD;
+}
+
+#photography-info h3{
+	color: #2C5A8C;
+}
+
+#pencil-pen-info h2{
+	color: #220C10;
+	background-color: #FDEDF3;
+}
+
+#pencil-pen-info h3{
+	color: #5C0A2E;
+}
+
+#paint-info h2{
+	color: #1F0722;
+	background-color: #EFE4F1;
+}
+
+#paint-info h3{
+	color: #4C2A65;
+}
+
+#digital-info h2{
+	color: #081721;
+	background-color: #E4EBF1;
+}
+
+#digital-info h3{
+	color: #537DA2;
+}
+
+#sketchbook-info h2{
+	color: #0B141E;
+	background-color: #F0F5FA;
+}
+
+#sketchbook-info h3{
+	color: #4079B7;
+}
+
+#process-info h2{
+	color: #250408;
+	background-color: #FDEDEF;
+}
+
+#process-info h3{
+	color: #6E0C18;
+}
+
+@media (max-width: 720px){
+	#about-me-card{
+	display: flex;
+	background-color: #F3E4E2;
+	border-radius: none;
+	margin-top: 50px;
+	padding: 10px;
+	justify-content: space-around;
+	width: 595px;
+	}
+
+	#about-me-title{
+	width: 30px;
+	}
+
+	#about-me-title h2{
+	font-size: 28px; 
+	}
+
+	#about-me-info{
+	width: 300px;
+	}
+
+	#about-me-info p{
+	font-size: 16px;
+	}
+}
+
+@media (max-width: 540px){
+	#about-me-card{
+	display: flex;
+	background-color: #F3E4E2;
+	border-radius: none;
+	margin-top: 40px;
+	padding: 10px;
+	justify-content: space-around;
+	width: 465px;
+	}
+
+	#about-me-title{
+	width: 10px;
+	}
+
+	#about-me-title h2{
+	font-size: 22px; 
+	}
+
+	#about-me-info{
+	width: 300px;
+	}
+
+	#about-me-info p{
+	font-size: 16px;
+	}
+}
+
+@media (max-width: 720px){
+	.artwork-display-cards{
+	margin: 0px
+	width: 650px;
+	}
+
+	.artwork-display-cards-info{
+	margin-left: 25px;
+	}
+
+	.artwork-display-cards-info h2{
+	font-size: 22px;
+	}	
+
+	.artwork-display-cards-info h3{
+	font-size: 18px;
+	}
+
+	.artwork-display-cards-info p{
+	font-size: 14px;
+	}
+
+	.artwork-display-cards img{
+	width: 325px;
+	height: 425px;
+	}
+}
+
+@media (max-width: 540px){
+	.artwork-display-cards{
+	margin: 5px
+	width: 500px;
+	}
+
+	.artwork-display-cards-info{
+	margin-left: 10px;
+	}
+
+	.artwork-display-cards-info h2{
+	font-size: 18px;
+	}	
+
+	.artwork-display-cards-info h3{
+	font-size: 14px;
+	}
+
+	.artwork-display-cards-info p{
+	font-size: 10px;
+	}
+
+	.artwork-display-cards img{
+	width: 250px;
+	height: 350px;
+	}
+}
+
+

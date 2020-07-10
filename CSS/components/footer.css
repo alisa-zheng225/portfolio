@@ -1,0 +1,122 @@
+.footer{
+	background-color: #413347;
+	color: #B0A5B6;
+	list-style: none;
+	font-size: 40px;
+	align-items: center;
+	text-align: center;
+	background-size: cover;
+	padding: 10px 0px;
+	justify-content: space-around;
+	display: flex;
+}
+
+.footer h2{
+	color: white;
+	size: 26px;
+}
+
+#footer-follow-me{
+	align-items: center;
+}
+
+#footer-follow-me li{
+	display: inline;
+	padding: 30px;
+}
+
+#instagram:hover{
+	color: #F3E4E2;
+}
+
+#twitter:hover{
+	color: #F3E4E2;
+}
+
+#facebook:hover{
+	color: #F3E4E2;
+}
+
+#footer-line{
+	font-size: 200px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#footer-contact-me{
+	width: 700px;
+	font-size: 20px;
+	font-family: Raleway;
+	font-weight: 200;
+	text-align: left;
+	align-items: center;
+}
+
+#footer-contact-me li{
+	list-style: none;
+}
+
+#contact-me{
+	display: flex;
+	align-items: left;
+}
+
+#contact-me-email{
+	margin-right: 40px;
+}
+
+@media (max-width: 720px){
+	.footer{
+		width: 650px;
+		font-size: 30px;
+		padding: 0px;
+		margin: 0px;
+		align-content: center;
+		display: flex;
+	}
+
+	.footer h2{
+		font-size: 20px;
+
+	}
+
+	#footer-follow-me{
+		width: 225px;
+	}
+
+	#contact-me{
+		width: 425px;
+		font-size: 20px;
+		display: block;
+	}
+}
+}
+
+@media (max-width: 540px){
+	.footer{
+		font-size: 20px;
+		padding: 0px;
+		margin: 0px;
+		align-content: center;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.footer h2{
+		font-size: 18px;
+
+	}
+
+	#footer-follow-me{
+		width: 100px;
+	}
+
+	#contact-me{
+		width: 200px;
+		display: block;
+		margin-right: 0px;
+	}
+}
+
